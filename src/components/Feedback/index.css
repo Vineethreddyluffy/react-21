@@ -1,0 +1,50 @@
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f172a;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 600px;
+}
+.image {
+  height: 30px;
+  width: 30px;
+}
+.para {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+}
